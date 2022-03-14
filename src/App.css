@@ -61,7 +61,7 @@ a {
   padding: 7px;
   text-align: right;
   color: #68693F;
-  font-size: 12px;
+  font-size: 13px;
   margin-right: 4px;
 }
 
@@ -79,14 +79,14 @@ a {
 
 .logMessage {
   white-space: pre-line;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .logDate {
   margin-left: auto;
   margin-right: 15px;
   text-align: right;
-  font-size: 13px;
+  font-size: 14px;
   color: #68693F
 }
 
