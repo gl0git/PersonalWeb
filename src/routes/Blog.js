@@ -6,7 +6,7 @@ function Blog(){
     const [logs, setLogs] = useState()
     
     useEffect(() => {
-        fetch('http://localhost:4000/weblogs')
+        fetch('https://shrouded-peak-19757.herokuapp.com/weblogs')
         .then(response => response.json())
         .then(responseJSON => {
             console.log(responseJSON)
@@ -23,7 +23,7 @@ function Blog(){
                 <div className='subhead'>Thoughts</div>
                 <ul className='posts'>
                     {logs?.map((log) => {
-                        return <li key={log._id}><a href={`http://localhost:3000/weblog/${log._id}`}>{log.title}</a></li>
+                        return <li key={log._id}><a href={`http://localhost:3000/#/weblog/${log._id}`}>{log.title}</a></li>
                     })}
                 </ul>
             </div>

@@ -20,25 +20,18 @@ export default function NewLog(){
         setDate(e.target.value)
     }
 
-    if (token != '$OK$#JTNKGOO!IRMKF)!J.#K!OJ$%NT!%N!_eirjnowkgehgbnEL!#34561313EJKMF') {
-        console.log(token)
-        return (
-            <div></div>
-        )   
-    }
-
     function postLog(){ 
-        fetch('http://localhost:4000/weblogs', {
+        fetch('https://shrouded-peak-19757.herokuapp.com/weblogs', {
         method: 'POST',
         headers: {
             "Content-Type": "application/json;charset=utf-8"
         },
-        body: JSON.stringify({title: title, message: message, date: date})   
+        body: JSON.stringify({token: token, title: title, message: message, date: date})   
         })
     }   
 
     return (
-        <form className='new-log-form' action='http://localhost:3000/blog'>
+        <form className='new-log-form' action='http://localhost:3000/#/weblog'>
             <input className='log-input' type='text' name='title' placeholder='title of log...' onChange={handleTitleChange}></input>
             <textarea className='log-input' type='text' name='message' placeholder='enter message...' onChange={handleMessageChange} size='200' ></textarea>
             <input className='log-input' type='text' name='date' placeholder='enter date...' onChange={handleDateChange}></input>

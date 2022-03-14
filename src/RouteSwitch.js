@@ -7,14 +7,14 @@ import NewLog from './routes/newLog'
 function RouteSwitch(){
 
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
                 <Route path='/' element={<App />}/>
                 <Route path='/weblog' element={<Blog />} />
                 <Route path='/weblog/:id' element={<Post />} />
                 <Route path='/newlog' element={<NewLog />} />
             </Routes> 
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 
