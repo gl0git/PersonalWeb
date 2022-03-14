@@ -73,13 +73,13 @@ a {
 
 .log {
   max-width: 22em;
-  line-height: 1.1em;
+  line-height: 1em;
   margin-left: 6em;
 }
 
 .logMessage {
   white-space: pre-line;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .logDate {
@@ -106,7 +106,7 @@ a {
   background-color: #d2d6bc;
   padding: 5px;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 /* for entering new log */

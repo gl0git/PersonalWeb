@@ -19,7 +19,7 @@ function Blog(){
             <Heading />
             <div className='body'>
                 <div className='title'>The Weblog</div>
-                <div className='subtext'><i>This has some text here.</i></div>
+                <div className='subtext'><i>A place for raw thoughts.</i></div>
                 <div className='subhead'>Thoughts</div>
                 <ul className='posts'>
                     {logs?.map((log) => {
