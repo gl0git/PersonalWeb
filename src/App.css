@@ -1,38 +1,128 @@
-.App {
-  text-align: center;
+*{
+  background-color: #FFFFDD;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face{
+  font-family: 'Old';
+  src: url('./fonts/MedievalSharp-Regular.ttf');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  margin: 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.title {
+  margin-top: -5px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.subtext {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.subhead {
+  font-size: 15px;
+}
+
+.posts {
+  font-size: 13px;
+}
+
+a {
+  color: #59593a;
+  text-decoration: none;
+  border-bottom: 1px dotted #ccc;
+}
+
+.blog-page {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.heading {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-bottom: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo {
+  font-family: Old;
+  font-weight: 700;
+  padding: 5px;
+  font-size: 22px;
+  background-color: #FFFFAA;
+  color: #C3C36E;
 }
+
+.credit {
+  padding: 7px;
+  text-align: right;
+  color: #68693F;
+  font-size: 12px;
+  margin-right: 4px;
+}
+
+.body {
+  margin-left: 6em;
+}
+
+/* This is for the logs */
+
+.log {
+  max-width: 22em;
+  line-height: 1.1em;
+  margin-left: 6em;
+}
+
+.logMessage {
+  white-space: pre-line;
+  font-size: 12px;
+}
+
+.logDate {
+  margin-left: auto;
+  margin-right: 15px;
+  text-align: right;
+  font-size: 13px;
+  color: #68693F
+}
+
+.line-break {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 30%;
+  border-top: 1px solid #cdcf8c;
+  min-height: 1px;
+}
+
+.bottom {
+  display: flex;
+}
+
+#readmore {
+  background-color: #d2d6bc;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+/* for entering new log */
+
+.new-log-form {
+  margin: 50px;
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.log-input {
+  margin: 10px;
+}
+
+textarea {
+  height: 500px;
+}
+
