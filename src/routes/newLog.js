@@ -31,7 +31,7 @@ export default function NewLog(){
     }   
 
     return (
-        <form className='new-log-form' action='http://localhost:3000/#/weblog'>
+        <form className='new-log-form' action='https://coG9.github.io/PersonalWeb/#/weblog'>
             <input className='log-input' type='text' name='title' placeholder='title of log...' onChange={handleTitleChange}></input>
             <textarea className='log-input' type='text' name='message' placeholder='enter message...' onChange={handleMessageChange} size='200' ></textarea>
             <input className='log-input' type='text' name='date' placeholder='enter date...' onChange={handleDateChange}></input>

@@ -23,7 +23,7 @@ function Blog(){
                 <div className='subhead'>Thoughts</div>
                 <ul className='posts'>
                     {logs?.map((log) => {
-                        return <li key={log._id}><a href={`http://localhost:3000/#/weblog/${log._id}`}>{log.title}</a></li>
+                        return <li key={log._id}><a href={`https://coG9.github.io/PersonalWeb/#/weblog/${log._id}`}>{log.title}</a></li>
                     })}
                 </ul>
             </div>

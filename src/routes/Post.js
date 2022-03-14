@@ -27,7 +27,7 @@ function Post(){
                 <div class='logMessage'>{message}</div>
                 <div class='line-break'></div>
                 <div class='bottom'>
-                    <a id='readmore' href='http://localhost:3000/#/weblog'>Read more content.</a>
+                    <a id='readmore' href='https://coG9.github.io/PersonalWeb/#/weblog'>Read more content.</a>
                     <div class='logDate'><i>{date}</i></div>
                 </div>
             </div>
