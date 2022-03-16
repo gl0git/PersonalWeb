@@ -1,8 +1,9 @@
 export default function Heading(){
     return (
         <div className='heading'>
-            <div className='logo'>FRESH THOUGHTS</div>
-            <div className='credit'>by <a href='#'>Micah Omondi</a></div>
+            <div className='logo'>RAW THOUGHT</div>
+            <div className='credit'>Inspired by <a href='https://coG9.github.io/PersonalWeb/#/weblog'>Aaron Swartz</a></div>
+            <div className='credit'>Written by <a href='https://coG9.github.io/PersonalWeb/#/weblog'>Micah Omondi</a></div>
         </div>
     )
 }
