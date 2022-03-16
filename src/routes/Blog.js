@@ -4,6 +4,7 @@ import Heading from '../components/Heading'
 function Blog(){
 
     const [logs, setLogs] = useState()
+    const [loading, setLoading] = useState(true)
     
     useEffect(() => {
         fetch('https://shrouded-peak-19757.herokuapp.com/weblogs')
@@ -11,8 +12,15 @@ function Blog(){
         .then(responseJSON => {
             console.log(responseJSON)
             setLogs(responseJSON.logs)
+            setLoading(false)
         })
     }, [])
+
+    if (loading) {
+        return (
+            <p>Loading...</p>
+        )
+    }
 
     return (
         <div className='blog-page'>
