@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/PersonalWeb/static/css/main.7573bd8f.css",
-    "main.js": "/PersonalWeb/static/js/main.edfccaa5.js",
+    "main.js": "/PersonalWeb/static/js/main.83736912.js",
     "static/media/MedievalSharp-Regular.ttf": "/PersonalWeb/static/media/MedievalSharp-Regular.5db53ecbc6a66b119952.ttf",
     "index.html": "/PersonalWeb/index.html",
     "main.7573bd8f.css.map": "/PersonalWeb/static/css/main.7573bd8f.css.map",
-    "main.edfccaa5.js.map": "/PersonalWeb/static/js/main.edfccaa5.js.map"
+    "main.83736912.js.map": "/PersonalWeb/static/js/main.83736912.js.map"
   },
   "entrypoints": [
     "static/css/main.7573bd8f.css",
-    "static/js/main.edfccaa5.js"
+    "static/js/main.83736912.js"
   ]
 }
